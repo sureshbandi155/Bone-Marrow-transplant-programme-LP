@@ -1,0 +1,1047 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,700&display=swap');
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url("../assets/fonts/StagSans-Medium.woff") format("woff"), url("../assets/fonts/StagSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url("../assets/fonts/StagSans-Light.woff") format("woff"), url("../assets/fonts/StagSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.2;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Stag Sans';
+    width: 100%;
+    background: #ffffff;
+    margin: 0 auto;
+    max-width: 100%;
+    color: #000;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    float: none;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    text-transform: initial;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+a {
+    margin-bottom: 0;
+
+}
+
+h1 {
+    font-size: 31px;
+    line-height: 1.3;
+    letter-spacing: 1.28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+h2 {
+    font-size: 31px;
+    line-height: 1.45;
+    letter-spacing: 1.28px;
+    color: #22B78E;
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 0.99px;
+    line-height: 1.85;
+    color: #22B78E;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #000;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #1D5AA6;
+}
+
+
+
+h6 {
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    margin-bottom: 8px;
+    color: #1D5AA6;
+}
+
+p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: normal;
+}
+
+
+body img {
+    vertical-align: middle;
+
+}
+
+
+
+/*======= banner section Styling ========*/
+.banner-sec {
+    background: url('./assets/images/Banner.png') no-repeat center center /cover;
+    padding: 26px 0 23px;
+}
+
+.banner-sec .txt-btn {
+    padding: 59px 0 0;
+}
+
+.banner-sec a {
+    color: #fff;
+    background: #DD5A6A;
+    padding: 13px 19px 14px;
+    font-family: Arial;
+    font-size: 14.4px;
+    line-height: 17px;
+    font-weight: 700;
+    border: 1px solid #DD5A6A;
+    transition: all 0.2s ease-in;
+    display: inline-block;
+}
+
+.banner-sec a:hover {
+    background: transparent;
+    color: #DD5A6A;
+}
+
+.banner-sec h1,
+.banner-sec h3 {
+    color: #fff;
+}
+
+.banner-sec h3 {
+    font-weight: 300;
+    margin-bottom: 15px;
+    letter-spacing: 3.59px;
+}
+
+.banner-sec h1 {
+    margin-bottom: 0;
+}
+
+.banner-sec h5 {
+    color: #213559;
+    padding-bottom: 11px;
+}
+
+.banner-sec form input:focus,
+.banner-sec form textarea:focus {
+    border-color: #000;
+}
+
+.banner-sec .enquire-form {
+    max-width: 339px;
+    height: auto;
+    padding: 24px 30px;
+    background-color: #ffffff;
+    float: right;
+    width: 100%;
+}
+
+.banner-sec form input,
+.banner-sec form textarea {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: "Stag Sans";
+    font-weight: 300;
+    border: 0.87px solid #d0d0d0;
+    width: 100%;
+    height: 42px;
+    margin-bottom: 10px;
+    padding: 20px 20px 20px 18px;
+    outline: 0;
+}
+
+.banner-sec form textarea {
+    height: 72px;
+}
+
+.banner-sec form input[type="submit"] {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    background: #DD5A6A;
+    padding: 12px 31px;
+    height: auto;
+    width: auto;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    border-color: #DD5A6A;
+    margin-top: 13px;
+}
+
+.banner-sec form input[type="submit"]:hover {
+    color: #DD5A6A;
+    background: #fff;
+}
+
+.banner-sec .left-col {
+    display: block;
+    float: left;
+    width: 65%;
+}
+
+.banner-sec .right-col {
+    display: block;
+    float: left;
+    width: 32.5%;
+    margin-left: 2.5%;
+}
+
+
+
+/*======= End of Banner section Styling ========*/
+
+/*======= Brown Marrown section Styling ========*/
+.brown-marrow-sec {
+    padding: 77px 0 18px;
+}
+
+.brown-marrow-sec .image-col {
+    display: block;
+    float: left;
+    width: 40.8%;
+}
+
+.brown-marrow-sec .image-col img {
+    width: 100%;
+}
+
+.brown-marrow-sec .text-col {
+    display: block;
+    float: left;
+    width: 57%;
+    margin-left: 2.1%;
+}
+
+.brown-marrow-sec .gradient-txt {
+    border-radius: 4px;
+    background-image: linear-gradient(-35deg, #6078ea 0%, #2ec4b8);
+    padding: 18px 17px 30px 25px;
+    margin: 20px 0 23px;
+}
+
+.brown-marrow-sec .gradient-txt h5 {
+    color: #fff;
+    line-height: 1.37;
+    margin: 0;
+}
+
+.brown-marrow-sec h6 {
+    line-height: 1.2;
+    color: #000;
+    font-weight: 300;
+    padding: 17px 0 44px 9px;
+    border-bottom: 1px solid #ECECFF;
+}
+
+.brown-marrow-sec .text-col h6:last-child {
+    border-bottom: 0;
+    margin: 0;
+}
+
+/*=======End of  Brown Marrown section Styling ========*/
+
+/*======= Doctors section Styling ========*/
+
+.doctors-sec {
+    padding: 0 0 62px;
+}
+
+.doctors-sec .flex-item {
+    background-color: #F9F9FF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 29px 40px 8px;
+    margin-bottom: 30px;
+}
+
+.doctors-sec .card h4 {
+    color: #1D5AA6;
+    margin-bottom: 10px;
+}
+
+.doctors-sec .card h6 {
+    font-weight: 300;
+    margin-bottom: 29px;
+    position: relative;
+}
+
+.doctor-sec .card a {
+    color: #fff;
+}
+
+.doctors-sec .card a {
+    color: #fff;
+    background-image: -o-linear-gradient(125deg, #6078ea 0%, #2ec4b8);
+    background-image: linear-gradient(-35deg, #6078ea 0%, #2ec4b8);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding: 14px 21px 17px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: all 0.3s ease-in;
+    position: relative;
+    top: 0;
+    transform: translateY(0px);
+}
+
+.doctors-sec .card a:hover {
+    top: -3px;
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+.doctors-sec .card .img-sec {
+    margin: 28px 0 26px;
+}
+
+
+.doctors-sec .card h6:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    margin: auto;
+    background: #22B78E;
+    height: 1px;
+    width: 27px;
+}
+
+.doctors-sec .btn {
+    padding: 11px 0 38px;
+}
+
+
+
+.doctors-sec .card h3 {
+    margin-bottom: 0;
+}
+
+.doctors-sec .card.border-bottom {
+    border-bottom: 1px solid #ECECFF;
+    margin-bottom: 39px;
+}
+
+
+/*======= End of Doctors section Styling ========*/
+
+
+/*======= Types bones section Styling ========*/
+
+
+.types-bones {
+    padding: 0 0 52px;
+}
+
+.types-bones ul {
+    list-style: none;
+    padding: 17px 0 0;
+    margin: 0;
+}
+
+.types-bones ul li {
+    font-size: 14px;
+    font-family: 'Stag Sans';
+    font-weight: 300;
+    line-height: 39px;
+    margin: 0 0 0 41px;
+    position: relative;
+
+}
+
+.types-bones ul li:before {
+    position: absolute;
+    content: '';
+    left: -42px;
+    top: 13px;
+    background: url(./assets/images/plus-symbol.png) no-repeat center /contain;
+    width: 16px;
+    height: 16px;
+}
+
+/*======= End of Types bones section Styling ========*/
+
+/*======= Immuny deficiency section  ========*/
+
+.immune-def-sec {
+    padding: 0 0 68px;
+}
+
+.immune-def-sec .four-col-outer-layer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.immune-def-sec .card {
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    -webkit-box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+    box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+    padding: 26px 39px 15px 24px;
+    -ms-flex-preferred-size: 23%;
+    flex-basis: 23%;
+    margin-right: 2.6%;
+    margin-top: 30px;
+}
+
+.immune-def-sec .card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.immune-def-sec .img-sec {
+    margin-bottom: 9px;
+    min-height: 44px;
+}
+
+/*======= End of Immuny deficiency section  ========*/
+
+/*======= Accordion section  ========*/
+
+
+.accordion-sec {
+    padding: 0 0 89px;
+}
+
+.accordion-sec h5 {
+    margin: 0;
+    letter-spacing: 1.6px;
+    border-bottom: 1px solid #ECECFF;
+    padding: 30px 25px 35px 0;
+
+}
+
+.accordion-sec .accordion-header {
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion-sec .accordion-header:before {
+    position: absolute;
+    content: '';
+    right: 4px;
+    top: 35px;
+    background: url(./assets/images/Down-arrow.png) no-repeat;
+    width: 22px;
+    height: 11px;
+}
+
+.accordion-sec ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accordion-sec ul li {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.15;
+    margin: 0 0 2px 47px;
+    position: relative;
+}
+
+.accordion-sec .accordion-content {
+    padding: 16px 0 13px;
+}
+
+.accordion-sec ul li:before {
+    position: absolute;
+    content: '';
+    left: -38px;
+    top: 13px;
+    background: url(./assets/images/Double-tick-mark.png) no-repeat;
+    width: 14px;
+    height: 8px;
+}
+
+/*======= End of Accordion section  ========*/
+
+/* Testimonial section  */
+.testimonial-sec {
+    padding: 0 0 48px;
+}
+
+.testimonial-sec .wrapper {
+    overflow: initial;
+}
+
+.testimonial-sec .section-heading {
+    max-width: 574px;
+}
+
+.testimonial-sec h2 {
+    padding-bottom: 2px;
+}
+
+.testimonial-sec .slick-list.draggable {
+    padding: 9px 0 30px !important;
+}
+
+.testimonial-sec .each-slider {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 9px 8px 27px 0 rgb(0 0 0 / 4%);
+    position: relative;
+    padding: 35px 32px 37px;
+    margin: 0 17px;
+    outline: 0;
+    max-width: 517px;
+}
+
+.testimonial-sec .slick-arrow {
+    position: absolute;
+    top: -117px;
+    right: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.testimonial-sec .previous-arrow {
+    right: 33px;
+}
+
+.testimonial-sec .slider-outer-layer {
+    padding: 0 0 33px;
+}
+
+.testimonial-sec .person-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 17px;
+}
+
+.testimonial-sec .quotes {
+    position: absolute;
+    right: 20px;
+    top: 32px;
+}
+
+.testimonial-sec .person-img {
+    padding-right: 15px;
+}
+
+.testimonial-sec .details h4 {
+    margin-bottom: 0;
+}
+
+.testimonial-sec .details p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.testimonial-sec .details p:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -8px;
+    background: #00000036;
+    width: 27px;
+    height: 1px;
+}
+
+.testimonial-sec .each-slider>p {
+    font-style: italic;
+}
+
+.testimonial-sec .btn {
+    text-align: center;
+}
+
+
+.testimonial-sec .btn a {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: #004498;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.24;
+    padding: 15px 23px 16px;
+    display: inline-block;
+    transition: all 0.3s ease-in;
+    border: 1px solid #004498;
+}
+
+.testimonial-sec .btn a:hover {
+    color: #004498;
+    background: #fff;
+}
+
+/*======== Footer section  ==========*/
+
+.footer-sec {
+    background-color: #272727;
+    padding: 39px 0 92px;
+    text-align: center;
+}
+
+
+
+.footer-sec ul {
+    list-style: none;
+    padding: 19px 0 28px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+
+}
+
+.footer-sec ul li {
+    display: inline-block;
+    margin: 0 7px 0 0;
+    position: relative;
+    transition: all 0.2s ease-in;
+}
+
+.footer-sec ul li:last-child {
+    margin: 0;
+    float: right;
+    top: -20px;
+    cursor: pointer;
+}
+
+.footer-sec p {
+    color: #fff;
+    padding-top: 19px;
+    font-size: 14px;
+
+}
+
+/* ======================================
+MEDIA QUERIES START
+========================================= */
+@media(min-width: 768px) {
+    .brown-marrow-sec .gradient-txt h5 {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .brown-marrow-sec h6 {
+        font-size: 17px;
+    }
+
+    /*======= Doctors section Styling ========*/
+    .doctors-sec .two-col-layer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 18px 0 0;
+    }
+
+    .doctors-sec .two-col-layer .flex-item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .doctors-sec .flex-item {
+        -ms-flex-preferred-size: 48.6%;
+        flex-basis: 48.6%;
+        margin-right: 2.8%;
+    }
+
+    /*======= End of Doctors section Styling ========*/
+
+
+
+
+
+
+}
+
+@media(min-width: 1025px) {
+    .immune-def-sec .card:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .testimonial-sec .slick-list.draggable {
+        position: relative;
+        left: -22px;
+        margin-right: -50%;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .banner-sec .txt-btn {
+        padding: 30px 0 0;
+    }
+
+    .banner-sec .enquire-form {
+        padding: 25px;
+    }
+
+    .brown-marrow-sec .gradient-txt {
+        margin: 0 0 15px;
+    }
+
+    .brown-marrow-sec h6 {
+        padding: 17px 0 24px 9px;
+    }
+
+    .doctors-sec {
+        padding: 0 0 70px;
+    }
+
+    .types-bones ul {
+        padding: 6px 0 0;
+    }
+
+    .immune-def-sec .card:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .immune-def-sec .card {
+        -ms-flex-preferred-size: 23%;
+        flex-basis: 31.6%;
+    }
+
+    .immune-def-sec {
+        padding: 0 0 46px;
+    }
+
+
+    .accordion-sec h5 {
+        padding: 20px;
+    }
+
+    .accordion-sec .accordion-header:before {
+        top: 23px;
+    }
+
+    .accordion-sec {
+        padding: 0 0 69px;
+    }
+
+    .testimonial-sec .each-slider {
+        max-width: inherit;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .banner-sec {
+        padding: 50px 0;
+    }
+
+    .banner-sec .txt-btn {
+        padding: 30px 0 0;
+    }
+
+    .banner-sec .enquire-form {
+        padding: 25px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .banner-sec .left-col,
+    .banner-sec .right-col {
+        float: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .banner-sec .logo img {
+        max-width: 180px;
+    }
+
+    .banner-sec {
+        text-align: center;
+    }
+
+    .banner-sec .left-col {
+        padding-bottom: 40px;
+    }
+
+    .banner-sec h3 {
+        padding-top: 10px;
+    }
+
+    .brown-marrow-sec .gradient-txt {
+        margin: 38px 0 7px;
+    }
+
+    .brown-marrow-sec h6 {
+        padding: 14px 9px;
+    }
+
+    .brown-marrow-sec .image-col,
+    .brown-marrow-sec .text-col {
+        float: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .brown-marrow-sec {
+        padding: 50px 0 25px;
+    }
+
+
+    .brown-marrow-sec .image-col img {
+        max-width: 360px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .doctors-sec {
+        padding: 0 0 20px;
+    }
+
+    .doctors-sec .flex-item {
+        max-width: 475px;
+        margin: 0 auto 30px;
+        padding: 25px 25px 8px;
+    }
+
+    .doctors-sec h2 {
+        padding-bottom: 10px;
+    }
+
+    .doctors-sec .card .img-sec img {
+        width: 100%;
+    }
+
+
+    .types-bones ul li {
+        margin: 0 0 0 30px;
+        line-height: 1.8;
+    }
+
+    .types-bones ul li:before {
+        left: -30px;
+    }
+
+    .types-bones ul {
+        padding: 0;
+    }
+
+    .types-bones {
+        padding: 0 0 34px;
+    }
+
+    .immune-def-sec {
+        padding: 0 0 40px;
+    }
+
+    .accordion-sec h5 {
+        padding: 20px 35px 20px 20px;
+    }
+
+    .accordion-sec .accordion-header:before {
+        top: 23px;
+    }
+
+    .accordion-sec {
+        padding: 0 0 41px;
+    }
+
+    .accordion-sec ul li {
+        margin: 0 0 2px 37px;
+    }
+
+    .accordion-sec ul li:before {
+        left: -28px;
+    }
+
+    .testimonial-sec {
+        padding: 30px 0 48px;
+    }
+
+    .testimonial-sec .slick-list.draggable {
+        padding: 20px 0 !important;
+    }
+
+    .testimonial-sec .each-slider {
+        max-width: inherit;
+        margin: 0;
+    }
+
+    .testimonial-sec .slider-outer-layer {
+        padding: 0 0 20px;
+    }
+
+    .testimonial-sec .quotes img {
+        max-width: 50px;
+    }
+
+    .testimonial-sec .btn a {
+        font-size: 16px;
+    }
+
+    .footer-sec {
+        padding: 50px 0;
+    }
+
+    .footer-sec ul li:last-child img {
+        max-width: 30px;
+    }
+
+    .footer-sec ul {
+        padding-top: 0;
+    }
+
+    .footer-sec ul li:last-child {
+        top: 0;
+    }
+}
+
+@media(min-width: 576px) and (max-width:767px) {
+    .immune-def-sec .card:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .immune-def-sec .card {
+        padding: 26px 39px 15px 24px;
+        -ms-flex-preferred-size: 47.1%;
+        flex-basis: 47.1%;
+        margin-right: 30px;
+    }
+
+    .immune-def-sec h2 {
+        margin: 0;
+    }
+
+}
+
+@media(max-width: 575px) {
+    .immune-def-sec .four-col-outer-layer {
+        display: block;
+    }
+
+    .immune-def-sec .card {
+        margin: 30px 0 0;
+    }
+
+
+
+
+}
